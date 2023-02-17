@@ -1,5 +1,4 @@
 import './App.css';
-
 import DarkMode from './Components/DarkMode/DarkMode';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
@@ -11,57 +10,22 @@ import Contacts from './Components/Contacts/Contacts';
 import Footer from './Components/Footer/Footer';
 import Scroll from './Components/Scroll/Scroll';
 
-
-
 function App() {
   return (
-  <>
-  <DarkMode/>
-  <Header/>
-  <Hero/>
-  <Info/>
-  <Skills/>
-  <Projects/>
-  <Abouts/>
-  <Contacts/>
-  <Footer/>
-  <Scroll/>
-  {/* <!-- dark mode --> */}
-
-
 
     <div className="wrapper">
-      {/* <!-- header section --> */}
-    
-      {/* <!-- hero section --> */}
-
-
-      {/* <!-- info section --> */}
-
-
-      {/* <!-- skills section --> */}
-
-
-      {/* <!-- project section --> */}
-
-
-      {/* <!-- about me section --> */}
-
-     
-      {/* <!-- contact section --> */}
-
-    
-      {/* <!-- footer section --> */}
-
- 
-
-      {/* <!-- //scroll button --> */}
-
-
-
-
+      <DarkMode/>
+      <Header/>
+      <Hero/>
+      <Info/>
+      <Skills/>
+      <Projects/>
+      <Abouts/>
+      <Contacts/>
+      <Footer/>
+      <Scroll/>
     </div>
-  </>
+  
   );
 }
 

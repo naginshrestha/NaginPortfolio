@@ -1,61 +1,51 @@
-
-.section5 {
+.section6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--text-color);
   }
-  .section5 .about-title {
+  .section6 .title {
     font-size: 2rem;
-    font-weight: bold;
   }
-  .section5 .about-container {
-    padding: 3rem;
+  .section6 .socials {
+    padding: 4rem 0;
+    gap: 5rem;
   }
-  .section5 .about-container .left {
-    width: 50%;
-    justify-content: center;
-    padding: 0 2rem;
-    position: relative;
-  }
-  .section5 .about-container .left .bg {
-    position: absolute;
-    width: 85%;
-    height: 65%;
-    background: var(--color-yellow);
-    bottom: 0;
-    z-index: 0;
-  }
-  .section5 .about-container .left img {
-    width: 80%;
-    z-index: 1;
-  }
-  .section5 .about-container .right {
-    width: 50%;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0 2rem;
-  }
-  .section5 .about-container .right h1 {
+  .section6 .socials i {
     font-size: 2.5rem;
   }
-  .section5 .about-container .right p:nth-child(3) {
-    font-weight: bold;
+  .section6 .socials i:nth-child(1) {
+    color: #0e76a8;
   }
-  .section5 .about-container .right a {
-    color: var(--link-color);
+  .section6 .socials i:nth-child(3) {
+    color: #0e76a8;
   }
-  .section5 .about-container .right > div {
+  .section6 .socials i:nth-child(4) {
+    color: #48b8ec;
+  }
+  .section6 .email-section {
+    margin-top: 2rem;
     flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  .section5 .about-container .right > div .tag {
-    font-weight: bold;
-  }
-  .section5 .about-container .right > div div {
+  .section6 .email-section .email {
+    background: var(--border-color);
     display: flex;
-    gap: 3rem;
-  }
-  .section5 .about-container .right > div div:hover {
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    gap: 1rem;
     cursor: pointer;
-    background: var(--body-color);
-    border-radius: 0.8rem;
+  }
+  .section6 .email-section .email a {
+    color: rgb(153, 153, 153);
+  }
+  .section6 .email-section .email .send {
+    color: var(--body-bg);
+  }
+  @media (width <= 480px) {
+    .section6 .socials {
+      gap: 3rem;
+    }
   }

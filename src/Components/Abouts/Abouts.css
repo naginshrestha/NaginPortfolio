@@ -1,33 +1,88 @@
-.section4 {
+.section5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    color: var(--text-color);
   }
-  .section4 .ProjTitle {
+  .section5 .title {
     font-size: 2rem;
   }
-  .section4 .projects-container {
-    width: 100%;
-    padding: 3rem 2rem 0 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
-    justify-content: space-between;
+  .section5 .about-container {
+    padding: 3rem;
   }
-  .section4 .projects-container .project-card {
+  .section5 .about-container .left {
+    width: 50%;
+    justify-content: center;
+    padding: 0 2rem;
+    position: relative;
+  }
+  .section5 .about-container .left .bg {
+    position: absolute;
+    width: 95%;
+    height: 65%;
+    background: var(--color-yellow);
+    bottom: 0;
+    z-index: 0;
+  }
+  .section5 .about-container .left img {
+    width: 100%;
+    z-index: 1;
+  }
+  .section5 .about-container .right {
+    width: 50%;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  .section5 .about-container .right h1 {
+    font-size: 2.5rem;
+  }
+  .section5 .about-container .right p:nth-child(3) {
+    font-weight: bold;
+  }
+  .section5 .about-container .right a {
+    color: var(--link-color);
+  }
+  .section5 .about-container .right > div {
     flex-direction: column;
   }
-  .section4 .projects-container .project-card .topimg img {
-    width: 80%;
-    height: 250px;
-  }
-  .section4 .projects-container .project-card .buttontitle {
-    padding: 1rem;
-  }
-  .section4 .projects-container .project-card .buttontitle p {
-    font-size: 1.3rem;
-  }
-  .section4 .projects-container .project-card .buttontitle p:nth-child(2) {
-    margin-top: 1.2rem;
+  .section5 .about-container .right > div .tag {
     font-weight: bold;
+  }
+  .section5 .about-container .right > div div {
+    display: flex;
+    gap: 3rem;
+  }
+  .section5 .about-container .right > div div span {
+    padding: 0.5rem 0.7rem;
+  }
+  .section5 .about-container .right > div div span:hover {
+    cursor: pointer;
+    background: rgb(189, 188, 188);
+    border-radius: 0.8rem;
+  }
+  @media (width <= 1024px) {
+    .section5 .about-container {
+      flex-direction: column;
+    }
+    .section5 .about-container .left,
+  .section5 .about-container .right {
+      width: 100%;
+      text-align: center;
+    }
+    .section5 .about-container .right div {
+      justify-content: center;
+    }
+  }
+  @media (width <= 480px) {
+    .section5 .about-container {
+      width: 100vw;
+    }
+    .section5 .about-container .right h1 {
+      font-size: 1.5rem;
+    }
+    .section5 .about-container .right div {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
