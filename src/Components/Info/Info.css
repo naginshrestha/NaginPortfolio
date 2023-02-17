@@ -1,0 +1,25 @@
+.section2 {
+    justify-content: center;
+  }
+  .section2 .info-container {
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .section2 .info-container .info-lists .icon-container i {
+    font-size: 2.5rem;
+    color: var(--color-yellow);
+  }
+  .section2 .info-container .info-lists div h5 {
+    letter-spacing: 2px;
+  }
+  .section2 .info-container .info-lists div p {
+    color: #cb9a08;
+  }
+  .section2 .info-container .info-divider {
+    background: grey;
+    width: 2px;
+    height: 35px;
+  }

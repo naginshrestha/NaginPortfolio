@@ -1,24 +1,67 @@
-import logo from './logo.svg';
 import './App.css';
+
+import DarkMode from './Components/DarkMode/DarkMode';
+import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
+import Info from './Components/Info/Info';
+import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
+import Abouts from './Components/Abouts/Abouts';
+import Contacts from './Components/Contacts/Contacts';
+import Footer from './Components/Footer/Footer';
+import Scroll from './Components/Scroll/Scroll';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+  <DarkMode/>
+  <Header/>
+  <Hero/>
+  <Info/>
+  <Skills/>
+  <Projects/>
+  <Abouts/>
+  <Contacts/>
+  <Footer/>
+  <Scroll/>
+  {/* <!-- dark mode --> */}
+
+
+
+    <div className="wrapper">
+      {/* <!-- header section --> */}
+    
+      {/* <!-- hero section --> */}
+
+
+      {/* <!-- info section --> */}
+
+
+      {/* <!-- skills section --> */}
+
+
+      {/* <!-- project section --> */}
+
+
+      {/* <!-- about me section --> */}
+
+     
+      {/* <!-- contact section --> */}
+
+    
+      {/* <!-- footer section --> */}
+
+ 
+
+      {/* <!-- //scroll button --> */}
+
+
+
+
     </div>
+  </>
   );
 }
 

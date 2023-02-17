@@ -1,0 +1,33 @@
+.section4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section4 .ProjTitle {
+    font-size: 2rem;
+  }
+  .section4 .projects-container {
+    width: 100%;
+    padding: 3rem 2rem 0 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    justify-content: space-between;
+  }
+  .section4 .projects-container .project-card {
+    flex-direction: column;
+  }
+  .section4 .projects-container .project-card .topimg img {
+    width: 80%;
+    height: 250px;
+  }
+  .section4 .projects-container .project-card .buttontitle {
+    padding: 1rem;
+  }
+  .section4 .projects-container .project-card .buttontitle p {
+    font-size: 1.3rem;
+  }
+  .section4 .projects-container .project-card .buttontitle p:nth-child(2) {
+    margin-top: 1.2rem;
+    font-weight: bold;
+  }

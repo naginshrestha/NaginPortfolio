@@ -1,0 +1,12 @@
+.dark-mode-checkbox ~ .wrapper {
+    --dark-bg: var(--color-dark);
+    --dark-text-color:#fff;
+    --dark-link-color:var(--color-yellow);
+    --dark-border-color:#fff;
+  }
+  
+  #darkmode {
+    position: fixed;
+    top: 8.5rem;
+    left: 1rem;
+  }
