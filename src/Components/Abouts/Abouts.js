@@ -1,11 +1,15 @@
 import React from 'react'
 import './Abouts.css'
 import naginpp from '../../assets/Nagin.png'
+import Layout from '../Layout/Layout'
 
 
 const Abouts = () => {
   return (
     <>
+    <Layout>
+
+    
      <section className="section5 flex" id="about">
         <h1 className="about-title">About Me</h1>
 
@@ -37,6 +41,7 @@ const Abouts = () => {
         </div>
 
       </section>
+      </Layout>
     </>
   )
 }

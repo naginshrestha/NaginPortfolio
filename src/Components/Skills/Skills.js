@@ -2,10 +2,14 @@ import React from 'react'
 import './Skills.css'
 import csharp from '../../assets/csharp.png'
 import firebase from '../../assets/firebase.png'
+import Info from '../Info/Info'
+import Layout from '../Layout/Layout'
 
 const Skills = () => {
   return (
    <>
+   <Layout>
+   <Info/>
          <section className="section3 flex" id="Skill">
         <div className="skills-container flex">
           <div className="flex">
@@ -45,6 +49,7 @@ const Skills = () => {
         </div>
 
       </section>
+      </Layout>
    </>
   )
 }

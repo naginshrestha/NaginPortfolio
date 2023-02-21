@@ -1,11 +1,14 @@
 import React from 'react'
 import naginpp from '../../assets/Nagin.png'
+import Contacts from '../Contacts/Contacts'
+import Layout from '../Layout/Layout'
 import './Hero.css'
 
 const Hero = () => {
   return (
     <>
-          <section className="grid section1 ">
+    <Layout>
+    <section className="grid section1 ">
         <div className="left">
           <img src={naginpp}  alt=""/>
           
@@ -26,6 +29,11 @@ const Hero = () => {
   
         </div>
       </section>
+    
+   
+
+    </Layout>
+      
     </>
   )
 }

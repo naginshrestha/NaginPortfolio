@@ -3,10 +3,12 @@ import './Projects.css'
 import mba from '../../assets/mbaapp.jpeg'
 import pulse from '../../assets/pulse.webp'
 import kotha from '../../assets/kothaapp.jpeg'
+import Layout from '../Layout/Layout'
 
 const Projects = () => {
   return (
    <>
+   <Layout>
          <section className="section4 flex " id="project">
         <h1 className="ProjTitle">Project</h1>
         <div className="projects-container grid">
@@ -44,6 +46,7 @@ const Projects = () => {
         </div>
       </div>
       </section>
+      </Layout>
    </>
   )
 }
