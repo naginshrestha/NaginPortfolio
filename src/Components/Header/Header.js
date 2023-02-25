@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
   return (
@@ -18,20 +19,20 @@ const Header = () => {
     <i class="fa-solid fa-bars"></i>
   </label>
   <ul class="flex primary-navigation">
+  <li>
+            <Link to="/">Home</Link>
+  </li>
     <li>
-      <Link to="/">Home</Link>
+    <Link to="/skill">Skills</Link>
     </li>
     <li>
-      <Link to="/Skill">Skills</Link>
+    <Link to="/projects">Projects</Link>
     </li>
     <li>
-      <Link to="/projects">Projects</Link>
+    <Link to="/about">About</Link>
     </li>
     <li>
-      <Link to="/about">About</Link>
-    </li>
-    <li>
-      <Link to="/contact">Contact</Link>
+    <Link to="/contact">Contact</Link>
     </li>
   </ul>
 </div>
