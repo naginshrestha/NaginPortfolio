@@ -5,11 +5,9 @@ import './Hero.css'
 const Hero = () => {
   return (
     <>
-          <section className="grid section1 ">
+        <section className="grid section1 ">
         <div className="left">
           <img src={naginpp}  alt=""/>
-          
-
         </div>
         <div className="right flex">
         <div>
@@ -19,7 +17,7 @@ const Hero = () => {
     
           <a href="" download="">
             <button className="button">
-              Download resume
+              Download resume 
               <i className="fa-solid fa-download"></i>
             </button>   
           </a>

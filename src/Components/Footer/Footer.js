@@ -10,19 +10,34 @@ const Footer = () => {
             <div>
               <h3>LINKS</h3>
               <ul className="flex">
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>
+                <a href="/">Home</a>
+                </li>
+                <li>
+                <a href="/#Skill">Skills</a>
+                </li>
+                <li>
+                <a href="/#project">Projects</a>
+                  </li>
+                <li>
+                <a href="/#about">About</a>
+
+                  </li>
+                <li>
+                <a href="/#contact">Contact</a>
+
+                  </li>
               </ul>
             </div>
 
             <div>
               <h3>EXTERNAL LINKS</h3>
               <ul className="flex"> 
-                <li>LinkedIn</li>
-                <li>GitHub</li>
+                <li>
+                <a href="https://www.linkedin.com/in/naginshrestha/">LinkedIn</a>
+                  </li>
+                <li>
+                <a href="https://github.com/naginshrestha">GitHub</a></li>
               </ul>
             </div>
           </div>

@@ -1,11 +1,20 @@
 :root {
   --body-bg: rgb(240, 240, 240);
+
+
+  --color-lightgray: #C8C8C8;
   --color-yellow: #ffca2f;
+
   --Dev-color: rgb(253, 250, 73);
+
   --body-color:rgb(240, 240, 240);
+  --body-color:#FFFFFF;
+
   --link-color:#0e76a8;
   --text-color:#000;
   --border-color:#2a2a2a;
+
+  --text-color-sharpblack: #202020;
 
   --font-montserrant:"Montserrat", sans-serif;
   --font-Poppins: "Poppins", sans-serif;

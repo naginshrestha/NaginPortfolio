@@ -5,12 +5,18 @@ const Header = () => {
   return (
     <>
     <header class="flex primary-header">
+
 <div class="flex logo">
   <h1>Nagin Shrestha</h1>
+
+  <div class='linedis'>
+  </div>
   <div>
-    <h3 class="line">Web Developer</h3>
+    <h3 class="line">React Web Developer</h3>
   </div>
 </div>
+
+
 <div class="right">
   <input type="checkbox" id="check" />
   <label for="check" class="checkBtn">
@@ -18,13 +24,13 @@ const Header = () => {
   </label>
   <ul class="flex primary-navigation">
     <li>
-      <a href="#home">Home</a>
+      <a href="/">Home</a>
     </li>
     <li>
-      <a href="#skills">Skills</a>
+      <a href="#Skill">Skills</a>
     </li>
     <li>
-      <a href="#projects">Projects</a>
+      <a href="#project">Projects</a>
     </li>
     <li>
       <a href="#about">About</a>
