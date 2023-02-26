@@ -1,5 +1,5 @@
 import React from 'react'
-import './Darkmode.css'
+import './DarkMode.css'
 
 const DarkMode = () => {
   return (
