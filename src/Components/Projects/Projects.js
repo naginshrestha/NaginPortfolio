@@ -4,11 +4,8 @@ import mba from '../../assets/mbaapp.jpeg'
 import pulse from '../../assets/pulse.webp'
 import kotha from '../../assets/kothaapp.jpeg'
 
-const Projects = ({mydata}) => {
+const Projects = () => {
  
-
-  console.log("mula",mydata)
-
   return (
    <>
      {/* <section className="section4 flex " id="project">
