@@ -1,5 +1,6 @@
 .section3 {
     justify-content: center;
+    width: 80vw;
     align-items: center;
     flex-direction: column;
     /* background-color: #E0E0E0;
@@ -13,7 +14,7 @@
     font-size: 2rem;
   }
   .section3 .skills-container {
-    gap: 5rem;
+    gap: 3rem;
   }
   .section3 .skills-container div {
     margin-top: 25px;
@@ -32,6 +33,14 @@
     font-weight: bold;
   }
   @media (width <= 768px) {
+    .section3 .skills-container {
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  @media (width <= 1220px) {
     .section3 .skills-container {
       gap: 2.5rem;
       flex-wrap: wrap;
