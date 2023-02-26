@@ -17,15 +17,6 @@ const Contacts = () => {
         </div>
 
         <h1 className="or">OR</h1>
-
-        {/* <div className="email-selection flex">
-          <p>reach out over email</p>
-
-          <div className="email">
-            <a href="nagin.shresthaofficial@gmail.com">nagin.shresthaofficial@gmail.com</a>   
-              <i className="fa-solid fa-paper-plane"></i>
-          </div>
-        </div> */}
            <div className="email-section flex">
           <p>reach out over email</p>
           <div className="email">

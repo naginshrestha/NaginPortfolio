@@ -2,11 +2,18 @@ import React from 'react'
 import './Skills.css'
 import csharp from '../../assets/csharp.png'
 import firebase from '../../assets/firebase.png'
-
+import bootstrap from '../../assets/bootstrap.png'
+import rest from '../../assets/rest.png'
+import postman from '../../assets/postman.png'
+import github from '../../assets/github.png'
 const Skills = () => {
   return (
    <>
+          
+
          <section className="section3 flex" id="Skill">
+         <h1 className="skillTitle">Skills</h1>
+        
         <div className="skills-container flex">
           <div className="flex">
             <i className="fa-brands fa-html5"></i>
@@ -16,6 +23,11 @@ const Skills = () => {
           <div className="flex">
             <i className="fa-brands fa-css3"></i>
             <span>CSS</span>
+          </div>
+
+          <div className="flex">
+            <img src={bootstrap}  alt=""/>
+            <span>Bootstrap</span>
           </div>
 
           <div className="flex">
@@ -41,6 +53,21 @@ const Skills = () => {
           <div className="flex">
             <img src={csharp}  alt=""/>
             <span>C#</span>
+          </div>
+
+          <div className="flex">
+            <img src={rest}  alt="" />
+            <span>RestAPI</span>
+          </div>
+
+          <div className="flex">
+            <img src={postman}  alt=""/>
+            <span>Postman</span>
+          </div>
+
+          <div className="flex">
+            <img src={github}  alt=""/>
+            <span>Github</span>
           </div>
         </div>
 

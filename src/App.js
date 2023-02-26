@@ -9,9 +9,18 @@ import Abouts from './Components/Abouts/Abouts';
 import Contacts from './Components/Contacts/Contacts';
 import Footer from './Components/Footer/Footer';
 import Scroll from './Components/Scroll/Scroll';
+import { useState } from 'react';
+
+import Jsonfile from './Data/Jsonfile.json'
 
 function App() {
-  return (
+
+  //  const[data,setData] =useState({})
+
+  // const jsondat =Jsonfile.map((info)=>{
+  //  setData(info)
+  // })
+  return ( 
 
     <div className="wrapper">
       <DarkMode/>
@@ -21,7 +30,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Abouts/>
-      <Contacts/>
+      <Contacts />
       <Footer/>
       <Scroll/>
     </div>

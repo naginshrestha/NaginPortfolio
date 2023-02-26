@@ -9,25 +9,79 @@
   }
   .section4 .projects-container {
     width: 100%;
-    padding: 3rem 2rem 0 2rem;
+    padding: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2.5rem;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
   }
   .section4 .projects-container .project-card {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-lightgray);
+    box-shadow: 0px 2px 5px rgb(45, 43, 43);
+    height: 100%;
+    padding: 1.5rem;
+
   }
+ 
   .section4 .projects-container .project-card .topimg img {
-    width: 80%;
+    margin-top: 10px;
+    width: 100%;
     height: 250px;
+    box-shadow: 0px 1px 4px rgb(9, 1, 1);
+    border-radius: 20px;
+
   }
-  .section4 .projects-container .project-card .buttontitle {
-    padding: 1rem;
+
+  .section4 .projects-container .project-card .buttontitle .title {
+     text-align: center;
+     font-size: 26px;
+     font-weight: bold;
+     color: #202020;
+     text-shadow: -1px 1px 1px rgb(93, 91, 91);
   }
-  .section4 .projects-container .project-card .buttontitle p {
-    font-size: 1.3rem;
+  .section4 .projects-container .project-card .buttontitle .date {
+    font-size: 1rem;
+    color: #202020;
+    text-shadow: -0.8px 1px 0.5px rgb(93, 91, 91);
+  }
+
+
+  .section4 .projects-container .project-card .buttontitle  .description{
+    font-size: 13px;
+     text-align: justify;
+  }
+
+  .section4 .projects-container .project-card .buttontitle  .read{
+    text-align: end;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
   }
   .section4 .projects-container .project-card .buttontitle p:nth-child(2) {
     margin-top: 1.2rem;
     font-weight: bold;
+
+  }
+
+  @media (width <= 780px) {
+    .section4 {
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .section4 .projects-container {
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+     display: flex;
+     flex-direction: column;
+   
+    }
+
+
   }

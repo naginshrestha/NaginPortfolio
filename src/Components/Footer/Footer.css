@@ -31,3 +31,13 @@ footer {
     padding: 1rem;
     padding-bottom: 1rem;
   }
+
+  @media (width <= 500px) {
+
+    .footer-top {
+      gap: 8rem;
+    }
+
+
+  
+  }

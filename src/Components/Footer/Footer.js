@@ -7,7 +7,7 @@ const Footer = () => {
          <footer>
         <div className="footer-container flex">
           <div className="footer-top flex">
-            <div>
+            <div className='left'>
               <h3>LINKS</h3>
               <ul className="flex">
                 <li>
@@ -30,7 +30,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            <div className='right'>
               <h3>EXTERNAL LINKS</h3>
               <ul className="flex"> 
                 <li>
