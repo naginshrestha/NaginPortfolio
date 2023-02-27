@@ -1,5 +1,5 @@
 import React from 'react'
-import naginpp from '../../assets/Nagin.png'
+import naginp from '../../assets/naginp.png'
 import './Hero.css'
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const Hero = () => {
     <>
         <section className="grid section1 ">
         <div className="left">
-          <img src={naginpp}  alt=""/>
+          <img src={naginp}  alt=""/>
         </div>
         <div className="right flex">
         <div>

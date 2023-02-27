@@ -11,7 +11,7 @@ const Skills = () => {
    <>
           
 
-         <section className="section3 flex" id="Skill">
+         <section className="section3 flex" id="Skills">
          <h1 className="skillTitle">Skills</h1>
         
         <div className="skills-container flex">

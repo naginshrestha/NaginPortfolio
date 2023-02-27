@@ -1,6 +1,6 @@
 import React from 'react'
 import './Abouts.css'
-import naginpp from '../../assets/Nagin.png'
+import naginp from '../../assets/naginp.png'
 
 
 const Abouts = () => {
@@ -13,7 +13,7 @@ const Abouts = () => {
 
           <div className="left flex">
             <div className="bg"></div>
-            <img src={naginpp} alt=""/>
+            <img src={naginp} alt=""/>
           </div>
 
           <div className="right flex">

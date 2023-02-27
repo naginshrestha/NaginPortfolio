@@ -14,8 +14,8 @@
     top: -2.5rem;
     font-style: bold;
     font-size: 5rem;
-    color: var(--color-lightgray);
-    text-shadow: -3px 5px 1px black;
+    color: #B0B0B0;
+    text-shadow: -1.5px 3px 1px rgb(57, 55, 55);
   }
   .section1 .left {
     grid-area: one;
@@ -38,7 +38,7 @@
     line-height: 4rem;
     font-size: 4.5rem;
     color: #909090;
-        text-shadow: -2px 3.5px 1px rgb(46, 44, 44);
+        text-shadow: -1.5px 2px 1px rgb(62, 60, 60);
   }
   .section1 .right div .tag {
     font-family: var(--font-montserrant);

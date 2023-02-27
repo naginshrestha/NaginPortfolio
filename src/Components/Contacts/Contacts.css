@@ -44,7 +44,7 @@
     color: rgb(153, 153, 153);
   }
   .section6 .email-section .email i{
-    margin-left: 15px;
+    margin-left: 10px;
 
   }
   .section6 .email-section .email .send {
@@ -54,4 +54,9 @@
     .section6 .socials {
       gap: 3rem;
     }
+    .section6 .email-section .email {
+
+      font-size: 10px;
+    }
+
   }

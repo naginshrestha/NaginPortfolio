@@ -14,10 +14,10 @@ const Footer = () => {
                 <a href="/">Home</a>
                 </li>
                 <li>
-                <a href="/#Skill">Skills</a>
+                <a href="/#Skills">Skills</a>
                 </li>
                 <li>
-                <a href="/#project">Projects</a>
+                <a href="/#Projects">Projects</a>
                   </li>
                 <li>
                 <a href="/#about">About</a>

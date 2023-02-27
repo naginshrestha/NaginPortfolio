@@ -32,12 +32,16 @@ footer {
     padding-bottom: 1rem;
   }
 
-  @media (width <= 500px) {
+  @media (width <= 600px) {
 
     .footer-top {
       gap: 8rem;
     }
 
+    footer .footer-container .footer-bottom  h1{
+ 
+      font-size: 24px;
+    }
 
   
   }

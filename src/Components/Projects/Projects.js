@@ -27,7 +27,7 @@ const Projects = () => {
       </div>
       </section> */}
 
-<section className="section4 flex " id="project">
+<section className="section4 flex " id="Projects">
         <h1 className="ProjTitle">Projects</h1>
 
         <div className="projects-container grid">
