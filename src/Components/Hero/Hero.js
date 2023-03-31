@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="right flex">
         <div>
           <h2 className="name"> Nagin Shrestha</h2>
-          <p className="tag">Web front end developer</p>
+          <p className="tag">Front End Developer</p>
         </div>
     
           <a href="" download="">

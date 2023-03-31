@@ -14,8 +14,8 @@
     top: -2.5rem;
     font-style: bold;
     font-size: 5rem;
-    color: #B0B0B0;
-    text-shadow: -1.5px 3px 1px rgb(57, 55, 55);
+    color: #8c8b8b;
+    text-shadow: -1.5px 1.5px 2px rgb(137, 134, 134);
   }
   .section1 .left {
     grid-area: one;
@@ -38,12 +38,12 @@
     line-height: 4rem;
     font-size: 4.5rem;
     color: #909090;
-        text-shadow: -1.5px 2px 1px rgb(62, 60, 60);
+        text-shadow: -1.5px 1.5px 3px rgb(62, 60, 60);
   }
   .section1 .right div .tag {
     font-family: var(--font-montserrant);
-    color: var(  --text-color-sharpblack);
-    text-shadow: -2px 2px 1px rgb(140, 134, 134);
+    color: #909090;
+    text-shadow: -1.5px 1.5px 1.5px rgb(84, 83, 83);
     font-size: 2rem;
     margin-top: 1rem;
   }
