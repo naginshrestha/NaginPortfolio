@@ -147,7 +147,7 @@ const responsive = {
 
            <div className='sites'>
             
-             <div className='websitefrm' onClick={(e)=> window.open("https://vercel.com/naginshrestha/cocktails", "_blank")}>
+             <div className='websitefrm' onClick={(e)=> window.open("https://cocktails-seven-sepia.vercel.app/", "_blank")}>
             
               <span>
               <a className='textweb'>Website</a>&nbsp;&nbsp;
