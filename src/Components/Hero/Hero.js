@@ -14,8 +14,9 @@ const Hero = () => {
           <h2 className="name"> Nagin Shrestha</h2>
           <p className="tag">Front End Developer</p>
         </div>
-    
-          <a href="" download="">
+
+        {/* <a href="" download=""> */}
+          <a >
             <button className="button">
               Download resume 
               <i className="fa-solid fa-download"></i>

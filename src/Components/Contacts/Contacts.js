@@ -19,7 +19,7 @@ const Contacts = () => {
            <div className="email-section flex">
           <p>reach out over email</p>
           <div className="email">
-          <a href="nagin.shresthaofficial@gmail.com">nagin.shresthaofficial@gmail.com<i className="fa-solid fa-paper-plane " style={{ color: "white" }} ></i></a>
+          <a href="mailto:nagin.shresthaofficial@gmail.com">nagin.shresthaofficial@gmail.com<i className="fa-solid fa-paper-plane " style={{ color: "white" }} ></i></a>
 
           </div>
         </div>

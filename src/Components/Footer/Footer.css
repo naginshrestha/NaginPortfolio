@@ -21,7 +21,7 @@ footer {
     list-style: none;
   }
   footer .footer-container .footer-top div ul li:hover {
-    color: var(--color-yellow);
+    color: rgb(164, 163, 163);
     cursor: pointer;
   }
   footer .footer-container .footer-bottom {

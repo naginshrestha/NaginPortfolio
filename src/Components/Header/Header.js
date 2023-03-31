@@ -12,7 +12,7 @@ const Header = () => {
   <div class='linedis'>
   </div>
   <div>
-    <h3 class="line">React Web Developer</h3>
+    <h3 class="line">Front End Developer</h3>
   </div>
 </div>
 

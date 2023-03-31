@@ -6,6 +6,9 @@ import bootstrap from '../../assets/bootstrap.png'
 import rest from '../../assets/rest.png'
 import postman from '../../assets/postman.png'
 import github from '../../assets/github.png'
+import typescript from '../../assets/typescript.png'
+import redux from '../../assets/redux.png'
+
 const Skills = () => {
   return (
    <>
@@ -24,6 +27,11 @@ const Skills = () => {
             <i className="fa-brands fa-css3"></i>
             <span>CSS</span>
           </div>
+          
+          <div className="flex">
+            <i className="fa-brands fa-sass"></i>
+            <span>Sass</span>
+          </div>
 
           <div className="flex">
             <img src={bootstrap}  alt=""/>
@@ -40,10 +48,18 @@ const Skills = () => {
             <span>React</span>
           </div>
 
+
           <div className="flex">
-            <i className="fa-brands fa-sass"></i>
-            <span>Sass</span>
+          <img src={typescript}  alt=""/>
+            <span>TypeScript</span>
           </div>
+
+          <div className="flex">
+          <img src={redux}  alt=""/>
+            <span>Redux</span>
+          </div>
+
+
        
           <div className="flex">
             <img src={firebase}  alt=""/>

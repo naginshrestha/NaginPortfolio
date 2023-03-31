@@ -11,11 +11,10 @@
   .section4 .projects-container {
     width: 100%;
     padding: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2.5rem;
-    justify-content: space-around;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .section4 .projects-container .project-card {
     flex-direction: column;
@@ -54,7 +53,7 @@
   .section4 .projects-container .project-card .buttontitle  .description{
     font-size: 13px;
      text-align: justify;
-     min-height: 125px;
+     min-height: 120px;
   }
 
   .section4 .projects-container .project-card .buttontitle  .read{
