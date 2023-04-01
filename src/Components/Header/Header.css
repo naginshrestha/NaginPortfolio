@@ -59,9 +59,9 @@
 
 
     .primary-header .right .primary-navigation {
-      width: 15rem;
+      width: 10rem;
       height: 100vh;
-      background: var(--body-bg);
+      background: var(--body-color);
       box-shadow: 0 3px 5px 0 #000;
       flex-direction: column;
       position: fixed;
