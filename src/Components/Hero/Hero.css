@@ -1,5 +1,5 @@
 .section1 {
-     background: var(--color-lightgray);
+     background: var(--color-framecolor);
     grid-template-areas: "one two";
     margin: 10rem auto 3rem auto;
     width: 90vw;
@@ -14,8 +14,8 @@
     top: -2.5rem;
     font-style: bold;
     font-size: 5rem;
-    color: #8c8b8b;
-    text-shadow: -1.5px 1.5px 2px rgb(137, 134, 134);
+    color: #132023;
+    text-shadow: -1.5px 1.5px 2px #3f899b;
   }
   .section1 .left {
     grid-area: one;
@@ -37,12 +37,12 @@
   .section1 .right div .name {
     line-height: 4rem;
     font-size: 4.5rem;
-    color: #909090;
+    color: var(--text-colordark);
         text-shadow: -1.5px 1.5px 3px rgb(62, 60, 60);
   }
   .section1 .right div .tag {
     font-family: var(--font-montserrant);
-    color: #909090;
+    color: var(--text-colordark);
     text-shadow: -1.5px 1.5px 1.5px rgb(84, 83, 83);
     font-size: 2rem;
     margin-top: 1rem;
@@ -50,12 +50,20 @@
   .section1 .right .button {
     margin-top: 30px;
     border: 0;
-    padding: 0.8rem 1.2rem;
-    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
     background: var(  --text-color-sharpblack);
-    color: var(--body-color);
     font-size: 16px;
     cursor: pointer;
+  }
+  .download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .right .button p{
+    color: var(--text-whitecolor);
   }
   .section1 .right .button i {
     color: #FFFFFF;

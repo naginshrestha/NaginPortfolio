@@ -6,6 +6,7 @@
   }
   .section5 .about-title {
     font-size: 2rem;
+    color: var(--text-darkcolor);
   }
   .section5 .about-container {
     display: flex;
@@ -76,8 +77,8 @@
   }
   .section5 .about-container .right > div div span:hover {
     cursor: pointer;
-    background: rgb(189, 188, 188);
-    border-radius: 0.8rem;
+    background: #cbaa6b;
+    border-radius: 1.5rem;
   }
   @media (width <= 1024px) {
     .section5 .about-container {

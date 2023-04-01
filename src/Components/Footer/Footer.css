@@ -1,6 +1,6 @@
 footer {
-    background: var(--text-color);
-    color: var(--body-color);
+  background: var(--color-footer);
+    color: var(--text-darkcolor);
   }
   footer .footer-container {
     flex-direction: column;
@@ -21,7 +21,7 @@ footer {
     list-style: none;
   }
   footer .footer-container .footer-top div ul li:hover {
-    color: rgb(164, 163, 163);
+    color: var(--text-hovercolor);
     cursor: pointer;
   }
   footer .footer-container .footer-bottom {

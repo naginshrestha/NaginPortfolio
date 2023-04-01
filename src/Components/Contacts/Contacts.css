@@ -9,11 +9,22 @@
   }
   .section6 .socials {
     padding: 4rem 0;
-    gap: 5rem;
+    gap: 3rem;
+ 
   }
   .section6 .socials i {
     font-size: 2.5rem;
+   padding: 10px;
   }
+
+  .socials :hover{
+    justify-content: center;
+    align-items: center;
+    background: #cbaa6b;
+    border-radius: 50px;
+  
+  }
+
   .section6 .socials i:nth-child(1) {
     color: #0e76a8;
   }
@@ -40,6 +51,8 @@
     gap: 1rem;
     cursor: pointer;
   }
+
+
   .section6 .email-section .email a {
     color: rgb(153, 153, 153);
   }

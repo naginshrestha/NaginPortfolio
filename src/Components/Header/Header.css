@@ -7,9 +7,9 @@
     position: sticky;
     top: 0;
     height: 100px;
-    background: var(--body-bg);
+    background: var(--color-navbar);
     z-index: 999;
-    color: var(--text-color);
+    color: var(  --text-darkcolor);
   }
   .primary-header .logo {
     position: relative;
@@ -46,7 +46,9 @@
     font-weight: bold;
   }
   .primary-header .right .primary-navigation li a:hover {
-    color: rgb(120, 119, 118);
+    color: var(  --text-hovercolor);
+    cursor: pointer;
+    
   }
 
 

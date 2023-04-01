@@ -24,7 +24,7 @@ const Abouts = () => {
             <a href="mailto:nagin.shresthaofficial@gmail.com">Connect with me</a>
 
             <div className="flex">
-              <div className="tag">Intrest</div>
+              <div className="tag">Interest</div>
 
               <div className='intest'>
                 <span>Coding</span>

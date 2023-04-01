@@ -48,7 +48,6 @@ const Skills = () => {
             <span>React</span>
           </div>
 
-
           <div className="flex">
           <img src={typescript}  alt=""/>
             <span>TypeScript</span>
@@ -59,8 +58,6 @@ const Skills = () => {
             <span>Redux</span>
           </div>
 
-
-       
           <div className="flex">
             <img src={firebase}  alt=""/>
             <span>Firebase</span>

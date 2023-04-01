@@ -1,14 +1,13 @@
 :root {
-  --body-bg: rgb(240, 240, 240);
+  --color-navbar: linear-gradient(to bottom, #4DA0B0,#4DA0B0);
+  --color-framecolor: linear-gradient(to bottom, #72a29c,#72a29c);
+  /* --color-framecolor: linear-gradient(to bottom, #5294a1,#40a0b3); */
+  --color-footer: linear-gradient(to bottom, #4DA0B0,#4DA0B0);
+  --body-color:  linear-gradient(to bottom, #4DA0B0, #D39D38);
 
-
-  --color-lightgray: #C8C8C8;
-  --color-yellow: #ffca2f;
-
-  --Dev-color: rgb(253, 250, 73);
-
-  --body-color:rgb(240, 240, 240);
-  --body-color:#FFFFFF;
+  --text-darkcolor: dark;
+  --text-whitecolor: #FFFFFF;
+  --text-hovercolor: #65c4d7;
 
   --link-color:#0e76a8;
   --text-color:#000;
@@ -20,37 +19,9 @@
   --font-Poppins: "Poppins", sans-serif;
 
 
-  --color-dark: #2a2a2a;
-  --dark-bg: var(--color-dark);
-  
-  --dark-text-color: #fff;
-  --dark-link-color: var(--color-yellow);
-  --dark-border-color: #fff; 
-
-
 }
 
-.dark-mode-checkbox:checked ~ .wrapper {
-  --body-bg: var(--dark-bg);
-  --text-color: var(--dark-text-color);
-  --link-color: var(--dark-link-color);
-  --border-color: var(--dark-border-color);
-}
-  
-  #darkMode {
-    position: fixed;
-    top: 8.5rem;
-    left: 1rem;
-    display: none;
-  }
 
-  .toggle {
-    position: fixed;
-    top: 8.5rem;
-    left: 2rem;
-    cursor: pointer;
-    z-index: 999;
-  }
   
 
 
@@ -67,6 +38,8 @@ body {
 
 .wrapper {
   background: var(--body-color);
+
+  
 }
 
 html {

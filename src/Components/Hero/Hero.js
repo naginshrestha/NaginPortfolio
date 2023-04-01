@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <>
-        <section className="grid section1 ">
+        <section className="grid section1 " id='/'>
         <div className="left">
           <img src={naginp}  alt=""/>
         </div>
@@ -16,10 +16,15 @@ const Hero = () => {
         </div>
 
         {/* <a href="" download=""> */}
+
           <a >
             <button className="button">
-              Download resume 
+            <div className='download'>
+            <p>  Download resume </p>
               <i className="fa-solid fa-download"></i>
+
+          </div>
+
             </button>   
           </a>
   

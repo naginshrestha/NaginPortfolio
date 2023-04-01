@@ -7,7 +7,7 @@
     width: 100%;
     border: 1px solid black;
     border-radius: 50px;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
   }
@@ -16,7 +16,7 @@ justify-content: space-around;
 
   .section2 .info-container .info-lists .icon-container i {
     font-size: 2.5rem;
-    color: #202020;
+    color: var(--text-darkcolor);
   }
 
 
@@ -24,10 +24,10 @@ justify-content: space-around;
     letter-spacing: 2px;
   }
   .section2 .info-container .info-lists div p {
-    color:  #202020;
+    color: var(--text-darkcolor);
   }
   .section2 .info-container .info-divider {
-    background: #888888;
+    background: black;
     width: 2px;
     height: 35px;
   }
