@@ -25,7 +25,7 @@ const Header = () => {
   </label>
   <ul class="flex primary-navigation">
     <li>
-      <a href="/">Home</a>
+      <a href="#nav-bar">Home</a>
       {/* <Link to="/" activeClass="active" spy={true} smooth={true} offset={50} duration={500}>Home</Link> */}
     </li>
     <li>
