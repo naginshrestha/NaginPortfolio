@@ -61,7 +61,7 @@
     .primary-header .right .primary-navigation {
       width: 10rem;
       height: 100vh;
-      background: var(--body-color);
+      background: #65c4d7;
       box-shadow: 0 3px 5px 0 #000;
       flex-direction: column;
       position: fixed;
@@ -69,6 +69,7 @@
       right: -15rem;
       transition: 0.5s ease;
     }
+
     .primary-header .right .primary-navigation li {
       padding-left: 1rem;
     }

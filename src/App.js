@@ -15,22 +15,30 @@ import Jsonfile from './Data/Jsonfile.json'
 
 function App() {
 
-  //  const[data,setData] =useState({})
+  const [showScreen, setShowScreen] = useState("");
 
-  // const jsondat =Jsonfile.map((info)=>{
-  //  setData(info)
-  // })
+  const screens = {
+    Skills: <Skills/>,
+    Projects:  <Projects/>,
+    about:  <Abouts/>,
+    contact: <Contacts />,
+  };
   return ( 
+    
 
     <div className="wrapper">
       <DarkMode/>
-      <Header/>
-      <Hero/>
-      <Info/>
-      <Skills/>
-      <Projects/>
-      <Abouts/>
-      <Contacts />
+      <Header setShowScreen={setShowScreen}/>
+
+      {!showScreen ? (
+          <>
+            <Hero />
+            {Object.values(screens)}
+          </>
+        ) : (
+          screens[showScreen]
+        )}
+  
       <Footer/>
       <Scroll/>
     </div>

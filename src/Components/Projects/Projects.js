@@ -76,7 +76,10 @@ const responsive = {
 };
   return (
    <> 
- <h1 className="ProjTitle ">Projects</h1>
+   <div className='proj'>
+   <h1 className="ProjTitle ">Projects</h1>
+
+   </div>
 
 
 <Carousel   swipeable={false}
