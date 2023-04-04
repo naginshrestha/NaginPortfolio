@@ -5,7 +5,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <>
-        <section className="grid section1 " id='nav-bar'>
+        <section className="grid section1 " id="home">
         <div className="left">
           <img src={naginp}  alt=""/>
         </div>

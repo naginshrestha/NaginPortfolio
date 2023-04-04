@@ -25,19 +25,19 @@ const Header = ({ setShowScreen }) => {
   </label>
   <ul class="flex primary-navigation">
     <li>
-      <a href="#!" onClick={() => setShowScreen("")}>Home</a>
+      <a href="#Home" onClick={() => setShowScreen("")}>Home</a>
     </li>
     <li>
-      <a onClick={() => setShowScreen("Skills")} href="#!">Skills</a>
+      <a onClick={() => setShowScreen("Skills")} href="#Skill">Skills</a>
     </li>
     <li>
-      <a  onClick={() => setShowScreen("Projects")} href="#!">Projects</a>
+      <a  onClick={() => setShowScreen("Projects")} href="#Project">Projects</a>
     </li>
     <li>
-      <a  onClick={() => setShowScreen("about")} href="#!">About</a>
+      <a  onClick={() => setShowScreen("about")} href="#About">About</a>
     </li>
     <li>
-      <a  onClick={() => setShowScreen("contact")} href="#!">Contact</a>
+      <a  onClick={() => setShowScreen("contact")} href="#Contact">Contact</a>
     </li>
   </ul>
 </div>

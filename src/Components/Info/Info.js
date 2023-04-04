@@ -4,7 +4,7 @@ import './Info.css'
 const Info = () => {
   return (
    <>
-        <section className="flex section2" id='nav-bar'>
+        <section className="flex section2" >
 
         <div className="flex info-container" id='graduate'>
 

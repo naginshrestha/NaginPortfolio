@@ -8,12 +8,13 @@ import postman from '../../assets/postman.png'
 import github from '../../assets/github.png'
 import typescript from '../../assets/typescript.png'
 import redux from '../../assets/redux.png'
+import Info from '../Info/Info'
 
 const Skills = () => {
   return (
    <>
           
-
+          <Info/>
          <section className="section3 flex" id="Skills">
          <h1 className="skillTitle">Skills</h1>
         
