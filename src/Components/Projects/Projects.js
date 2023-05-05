@@ -4,6 +4,8 @@ import Cocktail from '../../assets/cocktail.png'
 import movieapi from '../../assets/movieapi.png'
 import tracker from '../../assets/tracker.png'
 import calculator from '../../assets/calculator.png'
+import library from '../../assets/library.png'
+
 import { useState,useEffect,useRef } from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -92,6 +94,46 @@ const responsive = {
 
 >
 
+<section className="section4 flex " id="Projects">
+       
+
+       <div className="projects-container grid">
+
+       <div className="project-card flex">
+         <div className="topimg">
+           <img src={library} alt=""/>
+         </div>
+
+         <div className="buttontitle">
+         <p className='title'>Digital Library </p>
+           <p className='date'>15 April 2023</p>
+           <p className="description">Designed and developed a digital library website using React and Redux, allowing users to access and search for digital resources such as books.</p>
+
+           <div className='sites'>
+            
+             <div className='websitefrm' onClick={(e)=> window.open("https://digital-library-blush.vercel.app/", "_blank")}>
+            
+              <span>
+              <a className='textweb'>Website</a>&nbsp;&nbsp;
+              <i class="fa-solid fa-globe"></i>
+               </span> 
+          
+             </div>
+             
+             <div className='githubicon'>
+               <a href='https://github.com/naginshrestha/Digital-library'>
+               <i class="fa-brands fa-github"></i>
+               </a>
+             
+             </div>
+
+           </div>
+         </div>
+       </div>
+
+
+     </div>
+     </section>
 
       <section className="section4 flex " id="Projects">
        
